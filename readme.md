@@ -148,17 +148,18 @@
 
 </project>
 
-
-
 ```
 
 
+>
 	
 - 6.开始编写domain层（这里我用mongodb数据库）
 - 7.dao层我要用到数据库，所以在resource中添加配置信息
 - 8.service层中我有用到freemarker的模板引擎，所以添加配置信息
 - 9.web层编写启动类，main方法，main方法要放到目录外层，根据约定哦！
 - 10.每个层及都有自己的依赖
+
+
 
     ```
     eg：
