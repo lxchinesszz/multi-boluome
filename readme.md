@@ -175,7 +175,7 @@
     ```
    
    
-idea修改依赖
+	idea修改依赖
     
      ![](https://raw.githubusercontent.com/lxchinesszz/multi-boluome/master/web/src/main/resources/static/image/6.web%E5%B1%82%E4%BE%9D%E8%B5%963%E4%B8%AA.png)
   
