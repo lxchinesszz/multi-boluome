@@ -35,7 +35,7 @@
 
 - 5.引入SpringBoot依赖 这个我在外面写的（这个根据个人）
 	
-	```
+```
 	外面的pom文件内容
 	<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -151,12 +151,16 @@
 ```
 
 
->
+
 	
 - 6.开始编写domain层（这里我用mongodb数据库）
+
 - 7.dao层我要用到数据库，所以在resource中添加配置信息
+
 - 8.service层中我有用到freemarker的模板引擎，所以添加配置信息
+
 - 9.web层编写启动类，main方法，main方法要放到目录外层，根据约定哦！
+
 - 10.每个层及都有自己的依赖
 
 
@@ -169,11 +173,15 @@
     这个关系层次一定要告诉，编辑器，如下设置
         右键：Open Module Settings打开
     ```
-    
-    idea修改依赖
+   
+   
+idea修改依赖
     
      ![](https://raw.githubusercontent.com/lxchinesszz/multi-boluome/master/web/src/main/resources/static/image/6.web%E5%B1%82%E4%BE%9D%E8%B5%963%E4%B8%AA.png)
   
+
+
+
 
 - 11.run一下启动类吧！工程可以启动了
 
@@ -228,7 +236,8 @@ Error:java: Annotation processing is not supported for module cycles. Please ens
         </plugins>
     </build>
     ```
-    
+  
+  
 - 3.打包吧，mvn package —Dmaven.test.skip=true 跳过测试
 
 ```
