@@ -5,7 +5,7 @@
     <parent>
         <groupId>blm.server</groupId>
         <artifactId>multi-boluome</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -15,17 +15,14 @@
         <dependency>
             <groupId>blm.server</groupId>
             <artifactId>service</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>blm.server</groupId>
             <artifactId>dao</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>blm.server</groupId>
             <artifactId>domain</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

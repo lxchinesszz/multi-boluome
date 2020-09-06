@@ -264,3 +264,8 @@ INFO] Building jar: /Users/liuxin/git/模仿项目/multi-boluome/web/target/blm-
 
 ==提醒：所有模块里面的父节点都是一样的哦，不然会报错 unknow.version==
 >WARNING] 'parent.relativePath' of POM blm.server:domain:[unknown-version] 类似
+
+
+# 升级版本号命令
+
+`mvn versions:set -DnewVersion=1.0.1-SNAPSHOT`
